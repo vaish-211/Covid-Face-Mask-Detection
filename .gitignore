@@ -1,0 +1,19 @@
+# Dataset 
+New Masks Dataset/ 
+*.zip 
+input/ 
+inputs/ 
+# Models (exclude large model.h5) 
+models/model.h5 
+# Notebook directory (exclude all except face_mask_detection.ipynb) 
+notebooks/* 
+!notebooks/face_mask_detection.ipynb 
+# Temporary files and caches 
+__pycache__/ 
+*.pyc 
+.ipynb_checkpoints/ 
+*.ipynb_checkpoints 
+tuner_dir/ 
+# Virtual environments 
+.venv/ 
+venv/ 
