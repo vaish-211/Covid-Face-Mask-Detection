@@ -9,20 +9,16 @@ This project implements a Convolutional Neural Network (CNN) to detect whether a
 
 ## Project Structure
 Covid Face Mask Detection
-
-├── New Masks Dataset\              # Extracted dataset
-├── input\                          # Face images extracted from video
-├── Sample Pictures\                # Sample images and video for testing
-├── models\                         # Trained model file
-├── notebooks\                      # Jupyter notebook for training
-├── scripts\                        # Python scripts for training and detection
-├── covid-face-mask-detection-dataset.zip
-├── haarcascade_frontalface_default.xml
-├── requirements.txt
-├── README.md
-├── LICENSE
-├── .gitignore
-└── data_download.py
+- ├── Sample Pictures\                # Sample images and video for testing
+- ├── models\                         # Trained model file
+- ├── notebooks\                      # Jupyter notebook for training
+- ├── scripts\                        # Python scripts for training and detection
+- ├── haarcascade_frontalface_default.xml
+- ├── requirements.txt
+- ├── README.md
+- ├── LICENSE
+- ├── .gitignore
+- └── data_download.py
 
 
 ## Setup
